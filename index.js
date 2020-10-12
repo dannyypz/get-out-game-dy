@@ -10,7 +10,7 @@ const playAgain = (play) =>{
   }
 }
 const userChoice =(answer)=> {
-  if (answer === "1"){
+  if (playerAnswer === "1"){
     userChoice2()
   }
 
@@ -52,3 +52,4 @@ const userChoice6= () => {
   }
   playAgain()
 }
+userChoice()
